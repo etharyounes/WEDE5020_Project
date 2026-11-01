@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenSprout Community Garden - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <h1>GreenSprout NPO</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <h2>Welcome to GreenSprout Community Garden</h2>
+      <p>Empowering local residents through organic urban farming and educational workshops.</p>
+      
+      <!-- Responsive Image implementation using srcset and sizes -->
+      <picture>
+        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800" 
+             srcset="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400 400w,
+                     https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800 800w,
+                     https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1200 1200w"
+             sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px"
+             alt="GreenSprout Community Garden Plot" 
+             style="width: 100%; height: auto; border-radius: 8px; margin-top: 1.5rem;">
+      </picture>
+    </section>
+
+    <section class="grid-cards">
+      <article class="card">
+        <h3>Community Plots</h3>
+        <p>Rent individual garden beds to grow your own organic vegetables with community guidance.</p>
+      </article>
+      <article class="card">
+        <h3>Weekend Workshops</h3>
+        <p>Join environmental experts learning sustainable planting techniques and composting.</p>
+      </article>
+      <article class="card">
+        <h3>Volunteer Program</h3>
+        <p>Support urban greening efforts by dedicating time to maintain our shared garden spaces.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 GreenSprout Community Garden (NPO). All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
